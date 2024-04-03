@@ -61,6 +61,7 @@ h3 {
 	margin: 0 auto;
 	max-width: 1440px;
 	padding: 48px 100px;
+	position: relative;
 
 	&::before {
 		content: '';
@@ -356,6 +357,7 @@ footer {
 			gap: 8px;
 
 			& i {
+				cursor: pointer;
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -364,6 +366,10 @@ footer {
 				height: 48px;
 				border-radius: 50%;
 				background-color: hsla(245, 90%, 65%, 1);
+
+				&:hover {
+					background-color: rgb(166, 158, 248);
+				}
 			}
 		}
 	}
